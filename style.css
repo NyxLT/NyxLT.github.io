@@ -97,3 +97,42 @@ footer a {
     color: #9d4edd;
     text-decoration: none;
 }
+
+/* Credits Specific Styles */
+.credits-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.credit-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.credit-card {
+    background: #1a1a1f;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.credit-card:hover {
+    transform: translateY(-5px);
+    border-color: #9d4edd;
+}
+
+.credit-card h3 {
+    margin: 0 0 5px 0;
+    color: #9d4edd;
+}
+
+.role {
+    font-size: 0.85rem;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
